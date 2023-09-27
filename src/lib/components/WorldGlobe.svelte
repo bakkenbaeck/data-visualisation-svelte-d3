@@ -167,7 +167,7 @@
 </script>
 
 <svg bind:this={svg}></svg>
-<!-- Add a div for the city popup -->
+<!-- Div for the city popup -->
 <div class="city-popup" style={popupStyle}>
     {#if selectedCity}
         <p>{selectedCity.city.name}</p>
